@@ -1,0 +1,33 @@
+{
+    "grantor-service": {
+      "object_owner" : {
+        "schema_privileges" : [
+          {
+            "reference" : "ECCPRD2CLOUD_PRD",
+            "privileges" : [ "INSERT", "UPDATE" ],
+            "privileges_with_grant_option" : [ "SELECT" ]
+          },
+                  {
+            "reference" : "CUSTOM_TABLES",
+            "privileges" : [ "INSERT", "UPDATE" ],
+            "privileges_with_grant_option" : [ "SELECT" ]
+          }
+  
+        ]
+      },
+      "application_user" : {
+         "schema_privileges" : [
+          {
+            "reference" : "ECCPRD2CLOUD_PRD",
+            "privileges" : [ "INSERT", "UPDATE" ],
+            "privileges_with_grant_option" : [ "SELECT" ]
+          },
+                  {
+            "reference" : "CUSTOM_TABLES",
+            "privileges" : [ "INSERT", "UPDATE" ],
+            "privileges_with_grant_option" : [ "SELECT" ]
+          }
+        ]
+      }
+    }
+  }
